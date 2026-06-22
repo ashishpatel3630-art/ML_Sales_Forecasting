@@ -13,3 +13,6 @@ if st.button("Predict"):
     prediction = model.predict(input_df)
 
     st.success(f"Predicted Sales: {prediction[0]:.2f}")
+    
+    
+    print("model updated")
